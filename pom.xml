@@ -26,8 +26,15 @@
 
     <repositories>
         <repository>
-            <id>github</id>
+            <id>prose-builder</id>
             <url>https://maven.pkg.github.com/bs-jokri/prose-builder</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/bs-jokri/prose-builder-test</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
